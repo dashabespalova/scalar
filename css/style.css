@@ -72,6 +72,7 @@ textarea {
 	height:70px;
 	line-height: 70px;
 	text-transform: uppercase;
+	z-index: 30;
 }
 .ba-header__logo {
 	display: inline-block;
