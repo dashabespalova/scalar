@@ -394,8 +394,8 @@ textarea {
 	padding-left: 10px;
 }
 .ba-aliquam--col-1:after {
-	left:50%;
-	width:calc(50% + 20px);
+	left:calc(50% - 5px);
+	width:calc(50% + 25px);
 }
 .ba-aliquam--col-2:after {
 	left:0;
@@ -403,7 +403,7 @@ textarea {
 }
 .ba-aliquam--col-3:after {
 	left:0;
-	width:50%;
+	width:calc(50% + 6px);
 }
 .ba-aliquam__col:before  {
 	background: rgba(144, 144, 144, 0.25);
@@ -411,10 +411,16 @@ textarea {
 	display: block;
 	height: 47px;
 	left: 50%;
-	margin-left: -0.5px;
+
 	position: absolute;
 	top: 1px;
 	width: 1px;
+}
+.ba-aliquam--col-1:before {
+	margin-left: -5px;
+}
+.ba-aliquam--col-3:before {
+	margin-left: 5px;
 }
 
 .ba-aliquam__icon {
@@ -592,8 +598,6 @@ textarea {
 .ba-contacts a{
 	display: inline-block;
 	position: relative;
-	width:45px;
-	height:45px;
 	margin-right: 36px;
 }
 
