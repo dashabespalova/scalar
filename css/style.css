@@ -322,9 +322,13 @@ margin:0;
 
 
 /*placerat*/
+/*section--padding*/
+.ba-section--padding {
+	padding: 60px 0;
+}
+/*placerat*/
 .ba-placerat{
 	background:#F5F5F5;
-	padding: 60px 0 110px;
 }
 
 
@@ -375,7 +379,6 @@ margin:0;
 /*aliquam*/
 .ba-aliquam {
 	text-align: center;
-	padding:58px 0 30px;
 }
 
 .ba-aliquam__description {
@@ -387,6 +390,9 @@ margin:0;
 }
 .ba-aliquam__col {
 	position: relative;
+}
+.ba-aliquam__col p {
+	margin-bottom: 0;
 }
 .ba-aliquam__col:after {
 	background: rgba(144, 144, 144, 0.25);
@@ -449,7 +455,6 @@ margin:0;
 /*comments__wrapper*/
 .ba-comments {
 	background:#747389;
-	padding:58px 0 30px;
 	text-align: center;
 }
 .ba-comments h2 {
@@ -498,10 +503,6 @@ margin:0;
 }
 
 /*tools*/
-.ba-tools {
-	padding:44px 0;
-}
-
 .ba-tools__wrapper {
 	position: relative;
 
@@ -564,8 +565,6 @@ margin:0;
 .ba-contacts {
 	background:#F5F5F5;
 	text-align: center;
-	padding:60px 0 30px;
-
 }
 .ba-contacts__links {
 	padding-bottom: 30px;
@@ -611,5 +610,8 @@ margin:0;
 
 .ba-contacts__icon:hover{
 	color:#FFFFFF;
+}
+.ba-contacts__text {
+	margin: 0;
 }
 
